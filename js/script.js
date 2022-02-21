@@ -11,5 +11,5 @@ document.getElementById("favorite-color").innerHTML = favoriteColor;
 console.log(favoriteColor);
 
 const password = document.getElementById("password");
-password.innerHTML = `${firstName + lastName + favoriteColor}`;
-console.log(firstName + lastName + favoriteColor);
+password.innerHTML = `${firstName}${lastName}${favoriteColor}`;
+console.log(`${firstName}${lastName}${favoriteColor}`);
